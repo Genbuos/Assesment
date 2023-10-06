@@ -63,5 +63,7 @@ public class Main {
         System.out.println('\n');
 
         System.out.println(v1.getPriceAfterTax());
+
+        v1.formattedPriceAfterTax();
     }
 }

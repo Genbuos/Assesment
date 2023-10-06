@@ -49,7 +49,9 @@ public abstract class Vehicle extends Product{
         System.out.println(vehicle.getName());
     }
 
-
+    public void formattedPriceAfterTax(){
+        System.out.printf("Here is your total price: $ %.2f", getPriceAfterTax() );
+    }
 
     public float getPriceAfterTax(){
         float tax = TAX_AMT / 100;
